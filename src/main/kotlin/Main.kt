@@ -1,9 +1,7 @@
 import java.io.FileInputStream
 
 fun main(args: Array<String>) {
-    val diagnosticReader = DiagnosticReader()
-    diagnosticReader.readStream(FileInputStream(args[0]))
-
-    val lifeSupportRating = diagnosticReader.getLifeSupportRating()
-    println("The life support rating is $lifeSupportRating.")
+    val boardReader = BoardReader().readStream(FileInputStream(args[0]))
+    boardReader.getLosingBoard()
+    println("The winning boards score is " + boardReader.getLosingScore() + ".")
 }
