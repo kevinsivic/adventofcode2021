@@ -172,4 +172,7 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
+# AoC inputs
+inputs/*
+
 # End of https://www.toptal.com/developers/gitignore/api/gradle
