@@ -2,7 +2,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.io.InputStreamReader
 
-class LanternFishReaderTest {
+class PopulationReaderTest {
 
     @Test
     fun canCreatePopulationTrackerBasedOnInput() {
